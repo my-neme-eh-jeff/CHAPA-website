@@ -62,7 +62,7 @@ export const BoxReveal = ({
           ease: "easeIn",
           delay: delay,
         }}
-        className={`absolute bottom-1 left-0 right-0 top-1 z-20 bg-indigo-600`}
+        className={`absolute bottom-1 left-0 right-0 top-1 z-20 bg-[#111236]`}
       />
     </div>
   );

@@ -1,8 +1,9 @@
 import { ArrowRight } from "@/Assets/Icons";
 import Image from "next/image";
 import Link from "next/link";
-import { CharacterA, CharacterC, CharacterH, CharacterP } from "./TitleSVG";
 import BoxReveal from "./BoxReveal";
+import FramerMagnetic from "./MagneticButtonWrapper";
+import { CharacterA, CharacterC, CharacterH, CharacterP } from "./TitleSVG";
 
 export default async function HeroSection() {
   return (
@@ -31,6 +32,7 @@ export default async function HeroSection() {
               src={"/HeroSectionModel.png"}
               placeholder="blur"
               width={1200}
+              priority
               height={1000}
               blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAACCAYAAAB/qH1jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAI0lEQVR4nGNgYGBg+LJ3hfn/A5ucQGww+H/hxOT/75+vBHEAwWgL7GHMobcAAAAASUVORK5CYII="
               className="h-auto w-full md:w-[1000px] lg:w-[700px] lg:max-w-[1200px] xl:w-[900px]"
@@ -38,7 +40,14 @@ export default async function HeroSection() {
           </div>
         </div>
         <div className="mt-10 flex w-full flex-col items-center justify-center md:flex-row xl:mt-20 xl:px-28 xl:py-16">
-          <div>CHAPA CIRCLE</div>
+          <div className="flex flex-col gap-4">
+          <FramerMagnetic>
+            <button className="py-[60px] px-[45px] rounded-full bg-[#FAC4A2]">CHAPA</button>
+          </FramerMagnetic>
+          <p className="max-w-80">
+          The world's most iconic nightclub where heritage, music and glamour combine. An electric mix of authenticity, spontaneity, fun and kudos. 
+          </p>
+          </div>
           <div className="mt-8 md:ml-auto md:mt-0">
             <div className="group mb-8 flex place-items-center gap-x-4 text-center">
               <Link
@@ -51,22 +60,22 @@ export default async function HeroSection() {
               <ArrowRight className="mt-2 fill-red-500 transition-transform group-hover:translate-x-[10px]" />
             </div>
             <div className="flex flex-col items-center space-y-2 text-xl md:items-start md:text-2xl lg:text-3xl xl:text-4xl">
-              <BoxReveal boxColor={"#5046e6"} duration={0.5} delay={0.25}>
+              <BoxReveal duration={0.5} delay={0.25}>
                 <Link href="/" className="group w-fit">
                   Woman
                 </Link>
               </BoxReveal>
-              <BoxReveal boxColor={"#5046e6"} duration={0.5} delay={0.35}>
+              <BoxReveal duration={0.5} delay={0.35}>
                 <Link href="/" className="group w-fit">
                   Man
                 </Link>
               </BoxReveal>
-              <BoxReveal boxColor={"#5046e6"} duration={0.55} delay={0.45}>
+              <BoxReveal duration={0.55} delay={0.45}>
                 <Link href="/" className="group w-fit">
                   Children
                 </Link>
               </BoxReveal>
-              <BoxReveal boxColor={"#5046e6"} duration={0.5} delay={0.6}>
+              <BoxReveal duration={0.5} delay={0.6}>
                 <Link href="/" className="group w-fit">
                   Accessories
                 </Link>
