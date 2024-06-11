@@ -1,7 +1,13 @@
-export const characterC = (
+export const CharacterC = ({
+  width,
+  height,
+}: {
+  width: string;
+  height: string;
+}) => (
   <svg
-    width="247"
-    height="315"
+    width={width}
+    height={height}
     viewBox="0 0 247 315"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -15,10 +21,16 @@ export const characterC = (
   </svg>
 );
 
-export const characterH = (
+export const CharacterH = ({
+  width,
+  height,
+}: {
+  width: string;
+  height: string;
+}) => (
   <svg
-    width="244"
-    height="318"
+    width={width}
+    height={height}
     viewBox="0 0 244 318"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -32,10 +44,16 @@ export const characterH = (
   </svg>
 );
 
-export const characterA = (
+export const CharacterA = ({
+  width,
+  height,
+}: {
+  width: string;
+  height: string;
+}) => (
   <svg
-    width="245"
-    height="315"
+    width={width}
+    height={height}
     viewBox="0 0 245 315"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -49,10 +67,16 @@ export const characterA = (
   </svg>
 );
 
-export const characterP = (
+export const CharacterP = ({
+  width,
+  height,
+}: {
+  width: string;
+  height: string;
+}) => (
   <svg
-    width="242"
-    height="318"
+    width={width}
+    height={height}
     viewBox="0 0 242 318"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"

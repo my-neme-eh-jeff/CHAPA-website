@@ -1,18 +1,16 @@
 "use client";
 
 import * as React from "react";
-import Link from "next/link";
 
-import { cn } from "@/lib/utils";
 import {
   NavigationMenu,
   NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
+  NavigationMenuTrigger
 } from "@/components/ui/NavigationMenu";
+import { cn } from "@/lib/utils";
 
 type menuItem = {
   title: string;
@@ -148,7 +146,7 @@ export default function NavigationTabComponents() {
   ];
 
   return (
-    <NavigationMenu>
+    <NavigationMenu className="">
       <NavigationMenuList>
 
         <NavigationMenuItem>
@@ -161,7 +159,7 @@ export default function NavigationTabComponents() {
                     className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                     href="/"
                   >
-                    <div className="mb-2 mt-4 text-lg font-medium">
+                    <div className="mb-2 mt-4 text-lg font-medium ">
                       CHAPA
                     </div>
                     <p className="text-sm leading-tight text-muted-foreground">
