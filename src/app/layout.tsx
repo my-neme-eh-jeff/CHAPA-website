@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-
 export const metadata: Metadata = {
   title: "Stealth Design Assignment",
   description: "UI part",
@@ -18,4 +17,3 @@ export default function RootLayout({
     </html>
   );
 }
-

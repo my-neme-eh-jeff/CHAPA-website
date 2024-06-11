@@ -17,6 +17,11 @@ const config = {
         "2xl": "1400px",
       },
     },
+    variants: {
+      extend: {
+        scale: ["group-hover"],
+      },
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -52,6 +57,9 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+      },
+      fontFamily: {
+        hoves: ["TT Hoves", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
