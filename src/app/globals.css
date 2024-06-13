@@ -4,14 +4,21 @@
 
 @font-face {
   font-family: "TT Hoves";
-  src: url("/fonts/TT Hoves Pro Trial Regular.ttf") format("truetype");
+  src: url("/public/fonts/TT Hoves Pro Trial Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "TT Hoves";
-  src: url("/fonts/TT Hoves Pro Trial Black Bold.ttf") format("truetype");
+  src: url("/public/fonts/TT Hoves Pro Trial Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "TT Hoves";
+  src: url("/fonts/TT Hoves Pro Trial Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;

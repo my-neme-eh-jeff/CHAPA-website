@@ -1,7 +1,5 @@
 "use client";
-
 import * as React from "react";
-
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -11,7 +9,6 @@ import {
   NavigationMenuTrigger,
 } from "@/components/ui/NavigationMenu";
 import { cn } from "@/lib/utils";
-
 type menuItem = {
   title: string;
   href: string;
@@ -146,7 +143,7 @@ export default function NavigationTabComponents() {
   ];
 
   return (
-    <NavigationMenu className="">
+    <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger>Accessories</NavigationMenuTrigger>
