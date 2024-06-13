@@ -3,29 +3,15 @@ import Image from "next/image";
 import Link from "next/link";
 import BoxReveal from "./BoxReveal";
 import MagneticButtonWrapper from "./MagneticButtonWrapper";
-import { CharacterA, CharacterC, CharacterH, CharacterP } from "./TitleSVG";
+import MainHeading from "./MainHeading";
 
 export default async function HeroSection() {
   return (
     <div className="relative min-h-fit md:min-h-screen">
-      <div className="absolute inset-0 -z-20 bg-gradient-to-b from-[rgba(246,207,178,0.07)] to-[rgba(157,78,154,0.07)]"></div>
+      <div className="absolute inset-0 -z-20 bg-gradient-to-b from-[#f6cfb212] to-[#9d4e9a12]"></div>
       <div className="relative flex h-full flex-col items-center justify-center gap-y-20 pt-20">
         <div className="relative flex justify-center gap-2 md:gap-3 lg:gap-5 xl:gap-7">
-          <span className="relative h-auto w-20 sm:w-20 md:w-36 lg:w-48 xl:w-52">
-            <CharacterC width="100%" height="100%" />
-          </span>
-          <span className="relative h-auto w-20 sm:w-20 md:w-36 lg:w-48 xl:w-52">
-            <CharacterH width="100%" height="100%" />
-          </span>
-          <span className="relative h-auto w-20 sm:w-20 md:w-36 lg:w-48 xl:w-52">
-            <CharacterA width="100%" height="100%" />
-          </span>
-          <span className="relative h-auto w-20 sm:w-20 md:w-36 lg:w-48 xl:w-52">
-            <CharacterP width="100%" height="100%" />
-          </span>
-          <span className="relative h-auto w-20 sm:w-20 md:w-36 lg:w-48 xl:w-52">
-            <CharacterA width="100%" height="100%" />
-          </span>
+          <MainHeading />
           <div className="absolute left-[48%] -z-10 -translate-x-1/2 -translate-y-1/2 transform md:top-80 lg:top-96 xl:top-[29rem]">
             <Image
               alt="CHAPA Model"
@@ -42,7 +28,7 @@ export default async function HeroSection() {
         <div className="mt-10 flex w-full flex-col items-center justify-between md:flex-row xl:mt-20 xl:px-28 xl:py-16">
           <div className="flex place-items-center gap-x-4">
             <MagneticButtonWrapper>
-              <button className="w-fit rounded-full bg-[#FAC4A2] px-[35px] py-[50px] font-bold">
+              <button className="background-clip[padding-box] w-fit rounded-full bg-[#FAC4A2] px-[35px] py-[50px] font-semibold transition-all duration-300 hover:bg-[#FAC4A2] hover:shadow-[0_0_0_4px_#FAC4A2] focus:outline-none focus:ring-2 focus:ring-[#FAC4A2] focus:ring-offset-2">
                 CHAPA
               </button>
             </MagneticButtonWrapper>

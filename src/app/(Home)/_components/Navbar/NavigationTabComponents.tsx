@@ -18,113 +18,116 @@ type menuItem = {
 export default function NavigationTabComponents() {
   const menMenuItems: menuItem[] = [
     {
-      title: "Alert Dialog",
-      href: "/docs/primitives/alert-dialog",
+      title: "Gucci Ace Sneaker",
+      href: "/docs/primitives/gucci-ace-sneaker",
       description:
-        "A modal dialog that interrupts the user with important content and expects a response.",
+        "A stylish and comfortable sneaker designed for everyday wear, featuring Gucci's iconic logo and signature design elements.",
     },
     {
-      title: "Hover Card",
-      href: "/docs/primitives/hover-card",
+      title: "Gucci Dionysus Bag",
+      href: "/docs/primitives/gucci-dionysus-bag",
       description:
-        "For sighted users to preview content available behind a link.",
+        "A luxurious and versatile bag designed for both work and leisure, featuring Gucci's signature tiger head buckle and sleek design.",
     },
     {
-      title: "Progress",
-      href: "/docs/primitives/progress",
+      title: "Gucci Bamboo Watch",
+      href: "/docs/primitives/gucci-bamboo-watch",
       description:
-        "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
+        "A stylish and functional watch designed for both men and women, featuring Gucci's iconic logo and sleek design.",
     },
     {
-      title: "Scroll-area",
-      href: "/docs/primitives/scroll-area",
-      description: "Visually or semantically separates content.",
+      title: "Gucci Ophelia Sunglasses",
+      href: "/docs/primitives/gucci-ophelia-sunglasses",
+      description:
+        "A stylish and protective pair of sunglasses designed for both men and women, featuring Gucci's iconic logo and sleek design.",
     },
     {
-      title: "Tabs",
-      href: "/docs/primitives/tabs",
+      title: "Gucci Horsebit Loafer",
+      href: "/docs/primitives/gucci-horsebit-loafer",
       description:
-        "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+        "A stylish and comfortable loafer designed for both men and women, featuring Gucci's iconic horsebit buckle and sleek design.",
     },
     {
-      title: "Tooltip",
-      href: "/docs/primitives/tooltip",
+      title: "Gucci Bamboo Wallet",
+      href: "/docs/primitives/gucci-bamboo-wallet",
       description:
-        "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+        "A stylish and functional wallet designed for both men and women, featuring Gucci's iconic logo and sleek design.",
     },
   ];
   const womenMenuItems: menuItem[] = [
     {
-      title: "Alert Dialog",
-      href: "/docs/primitives/alert-dialog",
+      title: "Gucci Bamboo Handbag",
+      href: "/docs/primitives/gucci-bamboo-handbag",
       description:
-        "A modal dialog that interrupts the user with important content and expects a response.",
+        "A stylish and versatile handbag designed for both work and leisure, featuring Gucci's signature tiger head buckle and sleek design.",
     },
     {
-      title: "Hover Card",
-      href: "/docs/primitives/hover-card",
+      title: "Gucci Dionysus Clutch",
+      href: "/docs/primitives/gucci-dionysus-clutch",
       description:
-        "For sighted users to preview content available behind a link.",
+        "A luxurious and stylish clutch designed for both work and leisure, featuring Gucci's signature tiger head buckle and sleek design.",
     },
     {
-      title: "Progress",
-      href: "/docs/primitives/progress",
+      title: "Gucci Bamboo Watch",
+      href: "/docs/primitives/gucci-bamboo-watch",
       description:
-        "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
+        "A stylish and functional watch designed for both men and women, featuring Gucci's iconic logo and sleek design.",
     },
     {
-      title: "Scroll-area",
-      href: "/docs/primitives/scroll-area",
-      description: "Visually or semantically separates content.",
+      title: "Gucci Ophelia Sunglasses",
+      href: "/docs/primitives/gucci-ophelia-sunglasses",
+      description:
+        "A stylish and protective pair of sunglasses designed for both men and women, featuring Gucci's iconic logo and sleek design.",
     },
     {
-      title: "Tabs",
-      href: "/docs/primitives/tabs",
+      title: "Gucci Horsebit Loafer",
+      href: "/docs/primitives/gucci-horsebit-loafer",
       description:
-        "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+        "A stylish and comfortable loafer designed for both men and women, featuring Gucci's iconic horsebit buckle and sleek design.",
     },
     {
-      title: "Tooltip",
-      href: "/docs/primitives/tooltip",
+      title: "Gucci Bamboo Wallet",
+      href: "/docs/primitives/gucci-bamboo-wallet",
       description:
-        "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+        "A stylish and functional wallet designed for both men and women, featuring Gucci's iconic logo and sleek design.",
     },
   ];
   const childrenMenuItems: menuItem[] = [
     {
-      title: "Alert Dialog",
-      href: "/docs/primitives/alert-dialog",
+      title: "Gucci Kids Ace Sneaker",
+      href: "/docs/primitives/gucci-kids-ace-sneaker",
       description:
-        "A modal dialog that interrupts the user with important content and expects a response.",
+        "A stylish and comfortable sneaker designed for kids, featuring Gucci's iconic logo and signature design elements.",
     },
     {
-      title: "Hover Card",
-      href: "/docs/primitives/hover-card",
+      title: "Gucci Kids Dionysus Bag",
+      href: "/docs/primitives/gucci-kids-dionysus-bag",
       description:
-        "For sighted users to preview content available behind a link.",
+        "A luxurious and versatile bag designed for kids, featuring Gucci's signature tiger head buckle and sleek design.",
     },
     {
-      title: "Progress",
-      href: "/docs/primitives/progress",
+      title: "Gucci Kids Bamboo Watch",
+      href: "/docs/primitives/gucci-kids-bamboo-watch",
       description:
-        "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
+        "A stylish and functional watch designed for kids, featuring Gucci's iconic logo and sleek design.",
     },
     {
-      title: "Scroll-area",
-      href: "/docs/primitives/scroll-area",
-      description: "Visually or semantically separates content.",
+      title: "Gucci Kids Ophelia Sunglasses",
+      href: "/docs/primitives/gucci-kids-ophelia-sunglasses",
+      description:
+        "A stylish and protective pair of sunglasses designed for kids, featuring Gucci's iconic logo and sleek design.",
     },
     {
-      title: "Tabs",
-      href: "/docs/primitives/tabs",
+      title: "Gucci Kids Horsebit Loafer",
+      href: "/docs/primitives/gucci-kids-horsebit-loafer",
       description:
-        "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+        "A stylish and comfortable loafer designed for kids, featuring Gucci's iconic horsebit buckle and sleek design.",
     },
     {
-      title: "Tooltip",
-      href: "/docs/primitives/tooltip",
+      title: "Gucci Kids Bamboo Wallet",
+      href: "/docs/primitives/gucci-kids-bamboo-wallet",
       description:
-        "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+        "A stylish and functional wallet designed for kids, featuring Gucci's iconic logo and sleek design.",
     },
   ];
   const tabs = [
@@ -152,13 +155,15 @@ export default function NavigationTabComponents() {
               <li className="row-span-3">
                 <NavigationMenuLink asChild>
                   <a
-                    className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
+                    className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-[#9d4e9a12] to-[#FAC4A2] p-6 no-underline outline-none focus:shadow-md"
                     href="/"
                   >
-                    <div className="mb-2 mt-4 text-lg font-medium">CHAPA</div>
-                    <p className="text-sm leading-tight text-muted-foreground">
-                      Beautifully designed components built with Radix UI and
-                      Tailwind CSS.
+                    <div className="mb-2 mt-4 text-lg font-semibold text-white">
+                      CHAPA
+                    </div>
+                    <p className="text-sm leading-tight text-white">
+                      Beautifully designed accessories built with professional
+                      care and love.
                     </p>
                   </a>
                 </NavigationMenuLink>

@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="!font-hoves">{children}</body>
+      <body className="font-hoves selection:bg-amber-200 selection:text-black">{children}</body>
     </html>
   );
 }

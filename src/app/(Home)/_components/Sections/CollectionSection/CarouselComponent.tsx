@@ -38,69 +38,72 @@ export default function CarouselComponent() {
   ];
 
   return (
-    <div className="h-[40rem]">
-      <Swiper
-        slidesPerView={4}
-        spaceBetween={10}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        autoplay={{
-          delay: 4500,
-          disableOnInteraction: false,
-          pauseOnMouseEnter: true,
-        }}
-        breakpoints={{
-          0: {
-            slidesPerView: 1,
-            spaceBetween: 0,
-          },
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 3,
-            spaceBetween: 10,
-          },
-          1024: {
-            slidesPerView: 3,
-            spaceBetween: 30,
-          },
-          1536: {
-            slidesPerView: 4,
-            spaceBetween: 40,
-          },
-        }}
-        grabCursor={true}
-        loop={true}
-        modules={[FreeMode, Pagination, Autoplay, Navigation]}
-        className="carouselSwiperComponent"
-      >
-        {carouselProducts.map((product, index) => (
-          <SwiperSlide key={index}>
-            <div className="group flex h-[40rem] flex-col gap-3">
-              <div className="h-[36rem] w-full bg-gray-200">
-                <Image
-                  height={400}
-                  width={400}
-                  alt={product.title}
-                  src={product.image}
-                  loading="lazy"
-                  style={{ objectFit: "cover" }}
-                />
+    <>
+      <h1 className="mb-4 text-5xl uppercase drop-shadow-md">Collections</h1>
+      <div className="h-[40rem]">
+        <Swiper
+          slidesPerView={4}
+          spaceBetween={10}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          autoplay={{
+            delay: 4500,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+          }}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+              spaceBetween: 0,
+            },
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 10,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
+            1536: {
+              slidesPerView: 4,
+              spaceBetween: 40,
+            },
+          }}
+          grabCursor={true}
+          loop={true}
+          modules={[FreeMode, Pagination, Autoplay, Navigation]}
+          className="carouselSwiperComponent"
+        >
+          {carouselProducts.map((product, index) => (
+            <SwiperSlide key={index}>
+              <div className="group flex h-[40rem] flex-col gap-3">
+                <div className="h-[36rem] w-full bg-gray-200">
+                  <Image
+                    height={400}
+                    width={400}
+                    alt={product.title}
+                    src={product.image}
+                    loading="lazy"
+                    style={{ objectFit: "cover" }}
+                  />
+                </div>
+                <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                <Link href="/" className="w-fit">
+                  <span className="ml-2 w-fit bg-gradient-to-r from-pink-500 to-pink-500 bg-[length:0%_2px] bg-bottom bg-no-repeat transition-all duration-500 ease-out group-hover:bg-[length:100%_2px]">
+                    {product.title}
+                  </span>
+                </Link>
               </div>
-              <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-              <Link href="/" className="w-fit">
-                <span className="ml-2 w-fit bg-gradient-to-r from-pink-500 to-pink-500 bg-[length:0%_2px] bg-bottom bg-no-repeat transition-all duration-500 ease-out group-hover:bg-[length:100%_2px]">
-                  {product.title}
-                </span>
-              </Link>
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </>
   );
 }
