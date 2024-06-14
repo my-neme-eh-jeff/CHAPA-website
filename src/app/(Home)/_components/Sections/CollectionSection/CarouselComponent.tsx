@@ -38,7 +38,7 @@ export default function CarouselComponent() {
   ];
 
   return (
-    <>
+    <div className="mx-4 lg:mx-6 xl:mx-8">
       <h1 className="mb-4 text-5xl uppercase drop-shadow-md">Collections</h1>
       <div className="h-[40rem]">
         <Swiper
@@ -104,6 +104,6 @@ export default function CarouselComponent() {
           ))}
         </Swiper>
       </div>
-    </>
+    </div>
   );
 }
