@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Stealth Design Assignment",
   description: "UI part",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.png",
   },
 };
 
@@ -16,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="font-hoves selection:bg-amber-200 selection:text-black">{children}</body>
+      <body className="font-hoves selection:bg-amber-200 selection:text-black">
+        {children}
+      </body>
     </html>
   );
 }

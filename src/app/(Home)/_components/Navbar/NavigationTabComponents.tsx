@@ -21,37 +21,37 @@ export default function NavigationTabComponents() {
       title: "Gucci Ace Sneaker",
       href: "/docs/primitives/gucci-ace-sneaker",
       description:
-        "A stylish and comfortable sneaker designed for everyday wear, featuring Gucci's iconic logo and signature design elements.",
+        "Elevate your everyday style with this sleek and comfortable sneaker.",
     },
     {
       title: "Gucci Dionysus Bag",
       href: "/docs/primitives/gucci-dionysus-bag",
       description:
-        "A luxurious and versatile bag designed for both work and leisure, featuring Gucci's signature tiger head buckle and sleek design.",
+        "Make a statement with this luxurious and versatile bag, featuring Gucci's signature tiger head buckle.",
     },
     {
       title: "Gucci Bamboo Watch",
       href: "/docs/primitives/gucci-bamboo-watch",
       description:
-        "A stylish and functional watch designed for both men and women, featuring Gucci's iconic logo and sleek design.",
+        "Timeless elegance meets modern functionality in this stylish and functional watch.",
     },
     {
       title: "Gucci Ophelia Sunglasses",
       href: "/docs/primitives/gucci-ophelia-sunglasses",
       description:
-        "A stylish and protective pair of sunglasses designed for both men and women, featuring Gucci's iconic logo and sleek design.",
+        "Protect your eyes in style with these stylish and protective sunglasses.",
     },
     {
       title: "Gucci Horsebit Loafer",
       href: "/docs/primitives/gucci-horsebit-loafer",
       description:
-        "A stylish and comfortable loafer designed for both men and women, featuring Gucci's iconic horsebit buckle and sleek design.",
+        "Add a touch of sophistication to your outfit with this stylish and comfortable loafer.",
     },
     {
       title: "Gucci Bamboo Wallet",
       href: "/docs/primitives/gucci-bamboo-wallet",
       description:
-        "A stylish and functional wallet designed for both men and women, featuring Gucci's iconic logo and sleek design.",
+        "Keep your essentials organized and stylish with this functional and elegant wallet.",
     },
   ];
   const womenMenuItems: menuItem[] = [
@@ -59,37 +59,37 @@ export default function NavigationTabComponents() {
       title: "Gucci Bamboo Handbag",
       href: "/docs/primitives/gucci-bamboo-handbag",
       description:
-        "A stylish and versatile handbag designed for both work and leisure, featuring Gucci's signature tiger head buckle and sleek design.",
+        "Carry your essentials in style with this versatile and elegant handbag.",
     },
     {
       title: "Gucci Dionysus Clutch",
       href: "/docs/primitives/gucci-dionysus-clutch",
       description:
-        "A luxurious and stylish clutch designed for both work and leisure, featuring Gucci's signature tiger head buckle and sleek design.",
+        "Add a touch of glamour to your outfit with this luxurious and stylish clutch.",
     },
     {
       title: "Gucci Bamboo Watch",
       href: "/docs/primitives/gucci-bamboo-watch",
       description:
-        "A stylish and functional watch designed for both men and women, featuring Gucci's iconic logo and sleek design.",
+        "Timeless elegance meets modern functionality in this stylish and functional watch.",
     },
     {
       title: "Gucci Ophelia Sunglasses",
       href: "/docs/primitives/gucci-ophelia-sunglasses",
       description:
-        "A stylish and protective pair of sunglasses designed for both men and women, featuring Gucci's iconic logo and sleek design.",
+        "Protect your eyes in style with these stylish and protective sunglasses.",
     },
     {
       title: "Gucci Horsebit Loafer",
       href: "/docs/primitives/gucci-horsebit-loafer",
       description:
-        "A stylish and comfortable loafer designed for both men and women, featuring Gucci's iconic horsebit buckle and sleek design.",
+        "Add a touch of sophistication to your outfit with this stylish and comfortable loafer.",
     },
     {
       title: "Gucci Bamboo Wallet",
       href: "/docs/primitives/gucci-bamboo-wallet",
       description:
-        "A stylish and functional wallet designed for both men and women, featuring Gucci's iconic logo and sleek design.",
+        "Keep your essentials organized and stylish with this functional and elegant wallet.",
     },
   ];
   const childrenMenuItems: menuItem[] = [
@@ -97,37 +97,37 @@ export default function NavigationTabComponents() {
       title: "Gucci Kids Ace Sneaker",
       href: "/docs/primitives/gucci-kids-ace-sneaker",
       description:
-        "A stylish and comfortable sneaker designed for kids, featuring Gucci's iconic logo and signature design elements.",
+        "Elevate your child's style with this sleek and comfortable sneaker.",
     },
     {
       title: "Gucci Kids Dionysus Bag",
       href: "/docs/primitives/gucci-kids-dionysus-bag",
       description:
-        "A luxurious and versatile bag designed for kids, featuring Gucci's signature tiger head buckle and sleek design.",
+        "Make a statement with this luxurious and versatile bag, featuring Gucci's signature tiger head buckle.",
     },
     {
       title: "Gucci Kids Bamboo Watch",
       href: "/docs/primitives/gucci-kids-bamboo-watch",
       description:
-        "A stylish and functional watch designed for kids, featuring Gucci's iconic logo and sleek design.",
+        "Timeless elegance meets modern functionality in this stylish and functional watch.",
     },
     {
       title: "Gucci Kids Ophelia Sunglasses",
       href: "/docs/primitives/gucci-kids-ophelia-sunglasses",
       description:
-        "A stylish and protective pair of sunglasses designed for kids, featuring Gucci's iconic logo and sleek design.",
+        "Protect your child's eyes in style with these stylish and protective sunglasses.",
     },
     {
       title: "Gucci Kids Horsebit Loafer",
       href: "/docs/primitives/gucci-kids-horsebit-loafer",
       description:
-        "A stylish and comfortable loafer designed for kids, featuring Gucci's iconic horsebit buckle and sleek design.",
+        "Add a touch of sophistication to your child's outfit with this stylish and comfortable loafer.",
     },
     {
       title: "Gucci Kids Bamboo Wallet",
       href: "/docs/primitives/gucci-kids-bamboo-wallet",
       description:
-        "A stylish and functional wallet designed for kids, featuring Gucci's iconic logo and sleek design.",
+        "Keep your child's essentials organized and stylish with this functional and elegant wallet.",
     },
   ];
   const tabs = [
@@ -168,14 +168,26 @@ export default function NavigationTabComponents() {
                   </a>
                 </NavigationMenuLink>
               </li>
-              <ListItem href="/docs" title="Introduction">
-                Re-usable components built using Radix UI and Tailwind CSS.
+              <ListItem
+                href="/docs/gucci-ace-sneaker"
+                title="Gucci Ace Sneaker"
+              >
+                Elevate your everyday style with this sleek and comfortable
+                sneaker.
               </ListItem>
-              <ListItem href="/docs/installation" title="Installation">
-                How to install dependencies and structure your app.
+              <ListItem
+                href="/docs/gucci-ophelia-sunglasses"
+                title="Gucci Ophelia Sunglasses"
+              >
+                Protect your eyes in style with these stylish and protective
+                sunglasses.
               </ListItem>
-              <ListItem href="/docs/primitives/typography" title="Typography">
-                Styles for headings, paragraphs, lists...etc
+              <ListItem
+                href="/docs/gucci-horsebit-loafer"
+                title="Gucci Horsebit Loafer"
+              >
+                Add a touch of sophistication to your outfit with this stylish
+                and comfortable loafer.
               </ListItem>
             </ul>
           </NavigationMenuContent>
