@@ -33,7 +33,7 @@ export default async function HeroSection() {
               </button>
             </MagneticButtonWrapper>
             <p className="max-w-80">
-              The world's most iconic nightclub where heritage, music and
+              The world&apos;s most iconic nightclub where heritage, music and
               glamour combine. An electric mix of authenticity, spontaneity, fun
               and kudos.
             </p>
