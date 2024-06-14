@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className="flex justify-stretch">
         <Link
           href={"/login"}
-          className="flex items-center self-stretch border bg-amber-200 px-5 text-ellipsis text-sm md:text-md"
+          className="flex items-center self-stretch border bg-amber-200 px-5 text-ellipsis text-sm md:text-md lg:text-lg"
         >
           Login / SignUp
         </Link>

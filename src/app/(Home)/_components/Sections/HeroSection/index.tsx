@@ -28,7 +28,7 @@ export default async function HeroSection() {
         <div className="mt-10 flex w-full flex-col items-center justify-between md:flex-row xl:mt-20 xl:px-28 xl:py-16">
           <div className="flex place-items-center gap-x-4">
             <MagneticButtonWrapper>
-              <button className="background-clip[padding-box] w-fit rounded-full bg-[#FAC4A2] px-[35px] py-[50px] font-semibold transition-all duration-300 hover:bg-[#FAC4A2] hover:shadow-[0_0_0_4px_#FAC4A2] focus:outline-none focus:ring-2 focus:ring-[#FAC4A2] focus:ring-offset-2">
+              <button className="text-lg background-clip[padding-box] w-fit rounded-full bg-[#FAC4A2] px-[35px] py-[50px] font-semibold transition-all duration-300 hover:bg-[#FAC4A2] hover:shadow-[0_0_0_4px_#FAC4A2] focus:outline-none focus:ring-2 focus:ring-[#FAC4A2] focus:ring-offset-2">
                 CHAPA
               </button>
             </MagneticButtonWrapper>

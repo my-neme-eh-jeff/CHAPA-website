@@ -8,7 +8,7 @@ import { HeartIcon } from "@/Assets/Icons";
 
 export default function ImageClusterGridComponent() {
   return (
-    <div className="relative mx-4 space-y-4 lg:mx-0 lg:mt-10 lg:h-[76rem] lg:space-y-0 xl:mt-4 xl:h-[100rem]">
+    <div className="lg:overflow-scroll relative mx-4 space-y-4 lg:mx-0 lg:mt-10 lg:h-[76rem] lg:space-y-0 xl:mt-4 xl:h-[100rem]">
       <div className="sm:static sm:mb-4 sm:h-auto sm:w-full md:static md:mb-8 md:h-auto md:w-full md:px-4 lg:absolute lg:left-[8rem] lg:top-[4rem] lg:h-[18rem] lg:w-[13rem] xl:left-[14.688rem] xl:top-[1.938rem] xl:h-[21rem] xl:w-[16rem]">
         <Image
           className="h-full w-full rounded-lg border border-gray-300 object-cover"
