@@ -7,8 +7,8 @@ This is a [Next.js](https://nextjs.org/) project showcasing my design skills. Th
 First, clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/yourprojectname.git
-cd yourprojectname
+git clone https://github.com/my-neme-eh-jeff/CHAPA-website.git project-name
+cd project-name
 ```
 
 
